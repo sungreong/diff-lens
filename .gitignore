@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+
+# Dependency/build output
+node_modules/
+dist/
+build/
+frontend/dist/
+
+# Python/runtime cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local editor and AI-assistant workspace state
+.vscode/
+.agents/
+.claude/
+.codex/
+.cursor/
+
+# OS/local noise
+.DS_Store
+
+# Logs and local runtime state
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+backend/data/
+backend/db-backups/
