@@ -12,6 +12,12 @@ Git Diff Lens는 GitLab 프로젝트를 위한 **배포 전 Diff Briefing + Merg
 
 핵심 원칙은 **Git first, AI second**입니다. Git compare 결과, resolved SHA, dry-run merge 결과, 충돌 증거가 기준 데이터이고, AI는 그 근거를 요약하고 정리하는 보조 계층입니다. AI 결과는 코드 리뷰, 테스트, 배포 승인 판단을 대체하지 않습니다.
 
+## 화면 미리보기
+
+![Git Diff Lens setup screen](docs/screenshots/git-diff-lens-setup.png)
+
+첫 실행에서는 GitLab 저장소를 연결한 뒤 비교 기준을 선택합니다. 연결 이후에는 커밋 비교, 배포 전 점검, 통합 머지 플랜을 같은 화면에서 전환하며 사용할 수 있습니다.
+
 ## 언제 쓰면 좋은가
 
 Git Diff Lens가 유용한 경우:
