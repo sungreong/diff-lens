@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security policy
+    url: https://github.com/sungreong/diff-lens/security
+    about: Please avoid posting sensitive vulnerability details in public issues.

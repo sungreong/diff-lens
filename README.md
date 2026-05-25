@@ -186,6 +186,10 @@ Frontend:
 
 로컬 개발과 기본값을 위해 환경 변수도 사용할 수 있습니다.
 
+```bash
+cp .env.example .env
+```
+
 ```env
 BACKEND_PORT=8000
 FRONTEND_PORT=3000
@@ -262,6 +266,19 @@ npm run dev
 - ref drift guard로 preview 이후 branch가 움직인 경우 분석을 중단할 수 있습니다.
 - 민감한 request field는 job 저장과 cache record에서 sanitize됩니다.
 - AI output은 리뷰 보조 자료이며 배포 승인 근거가 아닙니다.
+- `.env`, SQLite DB, 로그, build output은 `.gitignore`로 제외됩니다.
+
+## 오픈소스 안내
+
+이 프로젝트는 MIT License로 공개됩니다. 자세한 내용은 `LICENSE`를 확인하세요.
+
+기여를 시작하기 전에:
+
+- `CONTRIBUTING.md`: 개발 환경, 테스트, PR 기준
+- `SECURITY.md`: 취약점 제보와 secret/log 취급 정책
+- `CODE_OF_CONDUCT.md`: 협업 기준
+
+Public issue나 PR에는 Git token, LLM key, Langfuse key, private repository URL, `.env` 내용, 원본 로그를 올리지 마세요.
 
 ## 개발 검증
 
